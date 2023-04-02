@@ -17,11 +17,11 @@
   <div class="container">
     <header>
       <img src="imagens/telefone.png" alt="imagem de telefone azul">
-      <h1>Minha Agenda de Telefones da EBAC</h1>
+      <h1> Agenda de Telefones </h1>
       <img id="ebac" src="imagens/logo-ebac.png" alt="logo da EBAC">
     </header>
 
-      <form id="form-telefone">
+    <form id="form-telefone">
       <input type="text" name="nomes" id="nome-cadastrado" required placeholder="Nome">
       <input type="tel" name="numero-telefone" id="numero-telefone" required placeholder="Numero de telefone">
       <select name="" id="tipo">
@@ -29,7 +29,7 @@
         <option value="Residencial">Residencial</option>
       </select>
 
-        <input id="cadastrar" type="submit" value="+ Cadastrar">
+      <input id="cadastrar" type="submit" value="+ Cadastrar">
     </form>
 
 
@@ -38,22 +38,18 @@
         <tr>
           <th>Nome Cadastrado</th>
           <th>Numero Telefone</th>
-          <th>Tipo</th>
+          <th class="tipo">Tipo</th>
         </tr>
       </thead>
-      
+
       <tbody>
-        <tr>
-          <th class="name"></th>
-          <th></th>
-          <th id="tipo"></th>
-        </tr>
+
       </tbody>
 
       <tfoot>
         <tr>
           <th>Total de telefones cadastrados</th>
-          <th></th>
+          <th id="total"></th>
         </tr>
       </tfoot>
 
