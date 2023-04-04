@@ -1,80 +1,79 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-
 body {
-        background-color: #f7f7f7;
-              }
+  background-color: #f7f7f7;
+}
 
+header {
+  display: flex;
+  justify-content: center;
+}
 
-  
-  .container {
-    margin: auto;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 1px, 2px, 1px, solid black;
-    background-color:#ffffffab;
-    height: 400px;  
-    border-radius: 10px;
- }
+.container {
+  max-width: 500px;
+  max-height: 100vh;
+  padding: 50px;
 
- .container  h1 {
-    font-weight: 500;
-    text-align: center;
-    padding: 20px 0;
-  }
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px, 2px, 1px, solid black;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
 
-form {
-  
-  }
-
-
- 
-input {
-display: inline;
-  padding: 10px;
-  margin-bottom: 20px;
+h1 {
   text-align: center;
-  }
-  
-  button {
-    padding: 10px;
-  }
+  margin: 80px 05px;
+}
 
-  #botao {
-    background-color: rgb(78, 155, 6);
-    text-transform: uppercase;
-    font-weight: bold ;
-    border-radius: 5px;
-  }
+h2 {
+  text-align: center;
+  margin: 30px;
+  text-decoration: underline;
+}
+
+img {
+  margin: 50px 10px;
+  width: 130px;
+  height: 100px;
+}
+
+input {
+  padding: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 0px 1px black;
+}
+
+#botao {
+  background-color: rgb(98, 194, 8);
+  text-transform: uppercase;
+  font-weight: 800;
+}
 
 #botao:hover {
   color: #fff;
 }
 
 #tarefa {
-  margin-right: 10px;
-  border-radius: 05px;
-   
+  margin-right: 05px;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 1.2rem;
 }
 
-
-
-  
-  
-
-  .conteudo {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 220px;
-    background-color: #f7f7f7; 
-    box-shadow: 0px 0px .1px rgba(0, 0, 0, 0.336);
-    border-radius: 05px;
-  }
+ul li {
+  cursor: pointer;
+}
