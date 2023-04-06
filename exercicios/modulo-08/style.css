@@ -116,3 +116,7 @@ tfoot th {
 img {
   width: 30px;
 }
+
+tbody > tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
