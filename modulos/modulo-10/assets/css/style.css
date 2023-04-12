@@ -5,8 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+
 html {
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 header,

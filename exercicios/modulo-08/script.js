@@ -30,11 +30,11 @@ if(nome.includes(inputNomeCadastrado.value)) {
   linha += `<td>${inputNomeCadastrado.value}</td>`;
   linha += `<td>${inputNumeroTelefone.value}</td>`;
   linha += `<td>${
-      (inputTipo.value == '<option value="Celular">Celular</option>',(inputTipo.addEventListener = imgCelular))
+      (Option.value == '<option value="Celular">Celular</option>',(Option.addEventListener = imgCelular))
     }` ||
     `<td>${
-      (inputTipo.value == '<option value="Residencial">Residencial</option>',
-      (inputTipo.addEventListener = imgResidencial))
+      (Option.value == '<option value="Residencial">Residencial</option>',
+      (Option.addEventListener = imgResidencial))
     }`;
   
   linha += "</tr>";
