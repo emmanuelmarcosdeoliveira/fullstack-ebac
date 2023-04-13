@@ -52,5 +52,7 @@ $(document).ready(function () {
       scrollTop: DESTINO.offset().top
     },1000)
 
+    $("seletor").get(0).scrollIntoView({behavior: 'smooth'});
+
    })
  })
