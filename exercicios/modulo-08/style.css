@@ -120,3 +120,17 @@ img {
 tbody > tr:nth-child(odd) {
   background-color: antiquewhite;
 }
+input:hover{
+  background-color: #fff;
+  border: 2px solid rgba(0, 128, 0, 0.253);
+ 
+}
+
+select:hover{
+  background-color: #fff;
+  border: 2px solid rgba(0, 128, 0, 0.253);
+   
+}
+
+
+

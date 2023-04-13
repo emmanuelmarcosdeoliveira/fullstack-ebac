@@ -1,7 +1,7 @@
 const form = document.getElementById("form-telefone");
 const imgCelular =
   '<img src="./imagens/celular-1.png" alt="telefone celular"/>';
-const imgResidencial =
+const imgOutro =
   '<img src="./imagens/residencial.png" alt="telefone residencial"/>';
 const nome = [];
 const numero = [];
@@ -31,7 +31,7 @@ function adicionaLinha() {
     let linha = "<tr>";
     linha += `<td>${inputNomeCadastrado.value}</td>`;
     linha += `<td>${inputNumeroTelefone.value}</td>`;
-    linha += `<td>${img.value == "Celular" ? imgCelular : imgResidencial}</td>`;
+    linha += `<td>${img.value == "Celular" ? imgCelular : imgOutro}</td>`;
 
     linha += "</tr>";
 
