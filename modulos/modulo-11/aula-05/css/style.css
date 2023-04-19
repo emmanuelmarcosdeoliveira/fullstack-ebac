@@ -124,11 +124,11 @@ aside .noticia {
 
   .destaque .noticia a {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.5em;
   }
 
   .destaque .noticia img {
-    margin-right: 0px;
+    margin-right: 0;
   }
   .noticias {
     display: block;
@@ -149,32 +149,27 @@ aside .noticia {
     border: none;
   }
 
-  .menu{
+  .menu {
     display: none;
-  }
-
-  .menu,
-  .menu > li {
-    width: 100%;
-    display: block;
   }
 
   .menu > li {
     clear: both;
-    background-color: #333;
-  }
+    }
 
   .submenu li {
     display: block;
     padding: 0.5rem;
   }
+
   .botao-menu {
     display: flex;
     justify-content: center;
-    margin: 16px 0;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
   }
-.botao-menu button {
-  padding: 8px;
-} 
 
+  .botao-menu button {
+    padding: 0.5rem;
+  }
 }
