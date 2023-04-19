@@ -1,0 +1,30 @@
+li {
+  width: 100%;
+  list-style: none;
+  
+}
+
+li img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1366px) {
+  li {
+    max-width: 33%;
+    float: left; 
+  }
+}
+
+/* Abaixo definimos a orientação e o tamanho de exibição da nossa média queries*/
+@media screen and (orientation: portrait) and (max-width: 640px){
+  body {
+  background-color: red;
+  } 
+} 
+
+/* Como essa média queries abaixo configuramos a impressão do nosso site */
+@media Print {
+  h3 {
+    color: red;
+  }
+}

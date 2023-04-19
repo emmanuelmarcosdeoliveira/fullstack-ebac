@@ -1,0 +1,30 @@
+h1, p {
+  font-size: 1em;
+  /* Aqui estamos dizendo que os elementos estão com um tamaqnho de 16px */
+  }
+
+h1, p{
+  font-size: 100%;
+  /* Aqui estamos dizendo a mesma coisa pois eles também são filhos do body, logo sua médida 100% = 16px */
+}
+ 
+
+
+
+
+section {
+  font-size: 32px; 
+}
+
+h1 {
+  font-size: 3em;
+}
+
+div {
+/* Significa que está com tamanho de 16px  */
+  width: 1em;
+  height: 1em;
+  background-color: red;
+}
+
+

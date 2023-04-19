@@ -1,0 +1,180 @@
+/* Configuraçãos Global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Regra do container */
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/*  Header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  padding: 1rem 0 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 3.5rem;
+}
+
+/* Estilizando o Menu dentro do Header  */
+
+.submenu {
+  display: none;
+  background-color: #fff;
+  border: 1px solid red;
+  position: absolute;
+  left: 0;
+  width: 300px;
+  top: 100%;
+}
+
+.menu > li {
+  float: left;
+  list-style: none;
+  padding: 1rem;
+  border-top: 0.4rem solid transparent;
+  position: relative;
+}
+
+.clear {
+  clear: both;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.menu li:hover {
+  border-color: red;
+}
+.submenu li {
+  display: block;
+  padding: 0.5rem;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.noticia img {
+  max-width: 100%;
+}
+
+.destaque {
+  margin-bottom: 3.5rem;
+}
+
+.destaque .noticia a {
+  display: flex;
+  font-size: 2rem;
+}
+
+.destaque .noticia img {
+  margin-right: 8px;
+}
+
+section h2 {
+  margin-bottom: 2rem;
+}
+
+aside {
+  padding-left: 2.5rem;
+}
+
+aside .noticia {
+  margin-bottom: 24px;
+}
+
+aside {
+  padding-left: 2.5rem;
+}
+
+aside .noticia {
+  margin-bottom: 2rem;
+}
+
+.noticias {
+  display: grid;
+  grid-template-columns: repeat(3, 32.6%);
+  column-gap: 1%;
+  row-gap: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .conteudo {
+    display: block;
+  }
+  .container {
+    max-width: 90%;
+  }
+  destaque {
+    margin-bottom: 0;
+  }
+
+  .destaque .noticia a {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .destaque .noticia img {
+    margin-right: 0px;
+  }
+  .noticias {
+    display: block;
+  }
+  .noticias .noticia {
+    margin-bottom: 2rem;
+  }
+  aside {
+    padding-left: 0;
+  }
+  header div.container {
+    flex-direction: column;
+  }
+  .submenu {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .menu,
+  .menu > li {
+    width: 100%;
+    display: block;
+  }
+
+  .menu > li {
+    clear: both;
+    background-color: #333;
+  }
+
+  .submenu li {
+    display: block;
+    padding: 0.5rem;
+  }
+  .botao-menu {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+.botao-menu button {
+  padding: 8px;
+} 
+
+}
