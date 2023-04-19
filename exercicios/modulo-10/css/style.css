@@ -11,7 +11,9 @@ body {
   background-color: #f7f7f7;
 }
 body img {
-  height: 600px;
+  margin-top: 30px;
+  height: 630px;
+  width: 660px;
   border-radius: 10px;
   box-shadow: 1px 0px 1px rgba(0, 0, 0, 0.116);
 }
@@ -39,7 +41,7 @@ h3 {
   align-items: center;
   border-radius: 10px;
   margin: 15px;
-  width: 500px;
+  width: 400px;
   height: 600px;
   background-color: #3c37ff;
 }
@@ -94,13 +96,39 @@ input {
 .botao input {
   width: 130px;
   margin: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   background-color: #3c37ff;
   color: #f7f7f7;
+}
+
+.botao input:hover {
+  background-color: #fff;
+  color: #3c37ff;
 }
 
 .imagem {
   display: flex;
   align-items: center;
   margin-left: 30px;
+}
+
+.outro input {
+  width: 185px;
+}
+
+.linha {
+  display: flex;
+  justify-content: center;
+}
+
+.linha label {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #74727283;
+  margin-left: 10px;
+}
+
+.linha input {
+  margin: 0 05px;
 }

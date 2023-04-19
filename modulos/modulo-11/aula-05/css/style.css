@@ -23,7 +23,7 @@ header .container {
 header {
   padding: 1rem 0 0;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 3.5rem ;
+  margin-bottom: 3.5rem;
 }
 
 /* Estilizando o Menu dentro do Header  */
@@ -92,16 +92,16 @@ aside {
   padding-left: 2.5rem;
 }
 
-aside  .noticia{
-  margin-bottom: 24px; 
+aside .noticia {
+  margin-bottom: 24px;
 }
 
 aside {
-   padding-left: 2.5rem;
+  padding-left: 2.5rem;
 }
 
 aside .noticia {
-margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .noticias {
@@ -109,4 +109,72 @@ margin-bottom: 2rem;
   grid-template-columns: repeat(3, 32.6%);
   column-gap: 1%;
   row-gap: 5%;
+}
+
+@media screen and (max-width: 767px) {
+  .conteudo {
+    display: block;
+  }
+  .container {
+    max-width: 90%;
+  }
+  destaque {
+    margin-bottom: 0;
+  }
+
+  .destaque .noticia a {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+  .destaque .noticia img {
+    margin-right: 0px;
+  }
+  .noticias {
+    display: block;
+  }
+  .noticias .noticia {
+    margin-bottom: 2rem;
+  }
+  aside {
+    padding-left: 0;
+  }
+  header div.container {
+    flex-direction: column;
+  }
+  .submenu {
+    display: block;
+    width: 100%;
+    position: relative;
+    border: none;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  .menu,
+  .menu > li {
+    width: 100%;
+    display: block;
+  }
+
+  .menu > li {
+    clear: both;
+    background-color: #333;
+  }
+
+  .submenu li {
+    display: block;
+    padding: 0.5rem;
+  }
+  .botao-menu {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+  }
+.botao-menu button {
+  padding: 8px;
+} 
+
 }
