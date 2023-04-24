@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: rgb(31, 96, 216);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.menu h1 {
+  font-style: italic;
+  color: #fff;
+}
+
+.menu .menu-lista {
+  display: flex;
+  list-style: none;
+  }
+
+  .menu-lista a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu-lista li {
+    padding: 20px;
+    color: #fff;
+    font-weight: 700;
+  }
+
+  .introducao {
+    display: flex;
+  }
+
+  .introducao-imagem {
+    display: flex;
+      max-width: 100%;  
+      padding: 40px; 
+      padding-left: 0;
+  }
+
+  .introducao-imagem img {
+    border-radius: 4px;
+  }
+
+  .introducao-texto{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+
+  .introducao-texto h3 {
+    font-size: 1.3rem;
+    font-style: italic;
+    color:  rgb(31, 96, 216);
+    border-bottom: 2px solid rgb(31, 96, 216);
+    padding-bottom: 20px;
+
+  }
+
+  .introducao-texto p {
+    padding:40px 0;
+  }
+
+  .container-produtos {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+
+  .container-produtos h3 {
+    font-size: 1.3rem;
+    font-style: italic;
+    color:  rgb(31, 96, 216) ;
+    padding: 20px;
+    border-bottom: 2px solid rgb(31, 96, 216);
+  }
+
+
+   .produtos-lista {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+     
+    }
+
+  
+  .produtos-lista li {
+    list-style: none;
+   
+  }
+
+  .produtos-lista img {
+    padding-bottom: 40px;
+    border-radius: 4px;
+  }
+
+  .produtos-lista h4 {
+    width: 200px;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+  }
+
+  .produtos-lista p {
+    max-width: 200px;
+  }
+
+  .produtos-lista button {
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px 20px;
+    border: none;
+    background-color:rgb(31, 96, 216);
+    color: #fff;
+    font-size: 1.0rem;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    
+  }
+  
+
+  
