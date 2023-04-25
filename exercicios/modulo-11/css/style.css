@@ -138,8 +138,11 @@ header {
     font-size: 1.0rem;
     border-radius: 4px;
     margin-bottom: 40px;
-    
+      }
+  .produtos-itens h5{
+    padding: 05px 0;
+    font-size: 1.1rem;
+    color:rgb(31, 96, 216);
   }
-  
 
   
