@@ -59,14 +59,15 @@ header {
 }
 
 .introducao-imagem {
-  display: flex;
   max-width: 100%;
+  display: flex;
   padding: 40px;
   padding-left: 0;
 }
 
 .introducao-imagem img {
-  border-radius: 4px;
+    border-radius: 4px;
+    max-width: 100vw;
 }
 
 .introducao-texto {
@@ -116,7 +117,16 @@ header {
   border-radius: 4px;
 }
 
-.produtos-lista h4 {
+.promoção {
+  display: flex;
+  align-items: center;
+ }
+
+ .promoção > h5 {
+margin-left: 10px;
+ }
+ 
+ .produtos-lista h4 {
   width: 200px;
   font-size: 1.2rem;
   padding-bottom: 5px;
@@ -142,4 +152,75 @@ header {
   padding: 05px 0;
   font-size: 1.1rem;
   color: rgb(31, 96, 216);
+}
+
+@media screen and (max-width: 400px){
+
+.menu-lista li {
+    display: none;
+}
+
+  header {
+  padding: 5px 0;
+    background-color: rgb(31, 96, 216);
+  }
+  .container {
+  max-width: 90%;
+  margin: 0 auto;
+  }
+  .produtos-lista {
+  margin-top: 10px;
+  }
+  .produtos-lista p {
+  max-width: 200px;
+  font-size: .9rem;
+  }
+  .introducao {
+  display: block;
+  align-items: center;
+  }
+  .introducao-imagem img {
+  max-width: 80%;
+  }
+  .introducao-texto p {
+    padding-bottom: 10px;
+    max-width: 80%;
+  }
+  .introducao-texto h3 {
+    padding-bottom: 10px;
+  }
+  .introducao-texto {
+    padding: 0px;
+    max-width:80%;
+  }
+  .introducao-texto p {
+    padding-bottom:05px;
+    font-size: 0.8rem;
+    }
+  .produtos-lista {
+    display: block;
+    }
+  .produtos-lista  {
+    padding-left: 15px;
+  }
+  .produtos-lista h4 {
+    font-size: 1rem;
+    padding-bottom: 5px;
+  }
+  .produtos-itens img {
+    margin-top: 20px;
+    max-width: 70%;
+  }
+  .container-produtos h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .produtos-lista {
+    max-width: 70%;
+  }
+  .produtos-itens img {
+    max-width: 80%;
+  }
 }
