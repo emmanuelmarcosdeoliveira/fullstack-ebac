@@ -121,7 +121,6 @@ header {
 }
 
 .produtos-lista img {
-  padding-bottom: 10px;
   border-radius: 4px;
 }
 
@@ -135,17 +134,17 @@ header {
 }
 
 .produtos-lista h4 {
-  width: 200px;
+  width: 290px;
   font-size: 1.2rem;
 }
 
 .produtos-lista p {
-  max-width: 200px;
+  max-width: 290px;
 }
 
 .produtos-lista button {
   margin-top: 10px;
-  width: 200px;
+  width: 290px;
   padding: 10px 20px;
   border: none;
   background-color: rgb(31, 96, 216);
@@ -156,7 +155,6 @@ header {
   cursor: pointer;
 }
 .produtos-itens h5 {
-  padding: 05px 0;
   font-size: 1.1rem;
   color: rgb(31, 96, 216);
 }
@@ -230,54 +228,54 @@ header {
   }
   .container-introducao {
     display: block;
-   
-  }
-  .introducao-imagem img {
-    width: 250px;
-    height: 250px;
-    margin-left: 10px; 
-    }
-    .introducao-texto h3 {
-      font-size: 1.2rem; 
-      padding: 10px;
-    }
-    .introducao-texto p {
-      padding: 5px 10px;
-      font-size: .8rem;
-      max-width: 90%;
-    }
-    .introducao-texto {
-      display: flex;
-      flex-direction: column;
-      padding: 0px;
-    }
-    .container-produtos h3 {
-      font-size: 1.2rem;
-      padding: 10px;
-    }
-    .produtos-itens img {
-      width: 250px;
-      margin-left: 10px;
-    }
-.produtos-lista  {
-  display: block;
-  max-width: 95%;
-}
-    #logo {
-      font-size: 1rem;
-      font-style: italic;
-      font-weight: bold;
-    }
-    .produtos-itens h4, p, h3, h5, button {
-      font-size: 1rem;
-      margin-left: 10px;
+    margin: 0 auto;
     }
     .introducao {
-      display: block
-     
-    
-    
-
-
-  
-}
+    display: block
+    }
+    .introducao-imagem img {
+    display: block;
+    margin: 0 10px;
+    }
+    .introducao-texto h3 {
+    font-size: 1.2rem; 
+    padding: 10px;
+    }
+    .introducao-texto p {
+    padding: 5px 10px;
+    font-size: .8rem;
+    max-width: 90%;
+    }
+    .introducao-texto {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    }
+    .container-produtos h3 {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 10px;
+    }
+    .produtos-itens img {
+    display: block;
+    width: 290px;
+    margin: 20px auto;
+    }
+    .produtos-lista  {
+    display: block;
+    margin: 0 auto;  
+    }
+    #logo {
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    }
+    .produtos-itens h4,p,button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1rem;
+    }
+    .produtos-itens h5 {
+    margin-left:42px ;
+    }
