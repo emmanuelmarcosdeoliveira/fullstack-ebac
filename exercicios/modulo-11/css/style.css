@@ -233,8 +233,8 @@ header {
    
   }
   .introducao-imagem img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin-left: 10px; 
     }
     .introducao-texto h3 {
@@ -244,7 +244,7 @@ header {
     .introducao-texto p {
       padding: 5px 10px;
       font-size: .8rem;
-      max-width: 65%;
+      max-width: 90%;
     }
     .introducao-texto {
       display: flex;
@@ -256,13 +256,12 @@ header {
       padding: 10px;
     }
     .produtos-itens img {
-      width: 200px;
-      max-width: 90%;
+      width: 250px;
       margin-left: 10px;
     }
 .produtos-lista  {
   display: block;
-  max-width: 90%;
+  max-width: 95%;
 }
     #logo {
       font-size: 1rem;
@@ -273,6 +272,9 @@ header {
       font-size: 1rem;
       margin-left: 10px;
     }
+    .introducao {
+      display: block
+     
     
     
 
