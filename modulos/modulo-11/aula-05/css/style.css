@@ -118,6 +118,9 @@ aside .noticia {
   .container {
     max-width: 90%;
   }
+  #nav .active #menu{
+display: flex;
+  }
   destaque {
     margin-bottom: 0;
   }
