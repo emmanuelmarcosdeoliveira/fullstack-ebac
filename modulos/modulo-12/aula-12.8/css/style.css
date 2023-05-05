@@ -1,0 +1,8 @@
+body {
+  padding: 80px;
+}
+#preco p {
+  width: 300px;
+  padding: 10px;
+  font-weight: bold;
+}
