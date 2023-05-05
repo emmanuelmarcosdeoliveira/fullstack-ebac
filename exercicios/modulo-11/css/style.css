@@ -163,7 +163,7 @@ header {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width:375px) and (max-width: 767px) {
   #btn-mobile {
     display: block;
   }
@@ -306,7 +306,7 @@ header {
     }
   }
    
-  @media screen and (min-width: 820px){
+  @media screen and (min-width: 768px){
     
       .introducao {
        display:block;
@@ -373,6 +373,9 @@ header {
         .introducao {
           display:grid;
           grid-template-columns: 1fr 1fr;
+         }
+         .introducao-imagem img{
+          margin: 10px;
          }
          .produtos-lista {
           margin-top: 40px;
