@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Navbar</title>
+  <link rel="stylesheet" href="lib/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header id="cabecalho">
+      <div class="navbar navbar-expand-lg">
+        <div class="container">
+          <h1>Título do Site</h1>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <nav class="collapse navbar-collapse justify-content-end" id="menu">
+            <ul class="nav navbar-nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link active" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#promocoes">Promoções</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+      <section id="inicio">
+        <h2>Inicio</h2>
+      </section>
+      <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="container">
+          <nav class="nav nav-tabs">
+            <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Eletronicos</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Moda Masculina</button>
+            <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Moda Feminina</button>
+            
+          </nav>
+          <div class="tab-content">
+            <div class="tab-pane active" id="aba1">
+              Conteúdo da aba eletronicos
+            </div>
+            <div class="tab-pane" id="aba2">
+              Conteúdo da aba Moda Masculina
+            </div>
+            <div class="tab-pane" id="aba3">
+              Conteúdo da aba Moda Feminina
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="promocoes">
+        <h2>Promoções</h2>
+      </section>
+      <section id="contato">
+        <h2>Contato</h2>
+      </section>
+    </div>
+  </div>
+  <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
