@@ -33,5 +33,10 @@ h1 a {
 .carousel-item img {
   width: 100%;
   height: 550px;
+}
 
+@media (max-width: 425px) {
+  .carousel-item img {
+    height: 200px;
+  }
 }
