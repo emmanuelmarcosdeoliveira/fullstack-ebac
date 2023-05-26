@@ -12,70 +12,202 @@
 
 <body>
   <header id="cabecalho">
-    <div class="navbar navbar-expand-lg navbar-text">
+    <div class="navbar navbar-expand-lg">
       <div class="container">
-        <h1><a href="./">X-controls</a></h1>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <a href="#">
+          <h1>X-control</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <nav id="menu" class=" justify-content-end collapse navbar-collapse">
-          <ul class="nav nav-pills navbar-nav">
+        <nav class="collapse navbar-collapse justify-content-end" id="menu">
+          <ul class="navbar-nav  nav nav-pills">
             <li class="nav-item">
-              <a class="nav-link active" href="#carousel">Inicio</a>
+              <a class="nav-link active" href="#inicio">Ínicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#produtos">Produtos</a>
+              <a class="nav-link " href="#controles">Controles</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#promocoes">Promoções</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contato">Contato</a>
+              <a class="nav-link " href="#contato">Contato</a>
             </li>
           </ul>
         </nav>
+
       </div>
+
     </div>
   </header>
-  <div data-bs-spy="scroll" data-bs-target="#cabecalho">
 
 
-    <div class="container">
-      <section id="carousel">
-        <div class="carousel slide" data-bs-ride="carousel">
-          <div class="carrousel-inner">
-            <div class="carousel-item active">
-              <img src="img/xbox-2.jpg" alt="controle-xbox-classic">
+  <div class="x" data-bs-spy="scroll" data-bs-target="#cabecalho">
+
+    <section id="inicio">
+      <div class="container">
+        <h2 class="text-center" class="text-bg-light">X-controls</h2>
+        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+              <img class="d-block w-100" src="img/img-2.jpg" alt="controle-azul">
+              <div class="carousel-caption">
+                <h2>Controle-X</h2>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="img/x-box-8.jpg" alt="controle-xbox-padrao">
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="img/img-1.jpg" alt="controle-amarelo">
+              <div class="carousel-caption">
+                <h2>Controle-Y</h2>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img src="img/xbox-3.jpg" alt="controle-xbox-top">
+            <div data-bs-interval="3000" class="carousel-item">
+              <img class="d-block w-100" src="img/img-3.jpg" alt="controle-sei-la">
+              <div class="carousel-caption">
+                <h2>Controle-Z</h2>
+              </div>
+            </div>
+          </div>
+          <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="controles">
+      <div class="container">
+        <h2 class="text-center" class="text-bg-light">Escolha o seu controle</h2>
+        <div class="row">
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-5.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-8.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-6.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-6.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-6.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-6.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card">
+              <img src="img/x-box-6.jpg" alt="Imagem Teste">
+              <div class="card-body">
+                <h4 class="class-title">
+                  Controle 01
+                </h4>
+                <p class="class-text">
+                  Esse controle é o top das galaxya
+                </p>
+                <a href="#" class="btn btn-primary">COMPRAR</a>
+                <a href="#" class="btn btn-secondary">SAIBA MAIS</a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-      <section id="produtos">
-        <h2>Produtos</h2>
-      </section>
+      </div>
+    </section>
 
-      <section id="promocoes">
-        <h2>Promoções</h2>
-      </section>
-
-      <section id="contato">
-        <h2>contato</h2>
-      </section>
+    <div id="contato" class="container">
+      <div>
+        <p class="text-center">Todos seus direitos Reservados</p>
+      </div>
     </div>
 
 
-  </div>
 
 
   </div>
-  </div>
-  </div>
+
+
+
 
 
 
